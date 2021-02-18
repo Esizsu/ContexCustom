@@ -6,19 +6,19 @@ Feature: Verifying the MainPage
     Then User verifies that "Accessories picture" is displayed
     Then User verifies that "Accessories" is present
     Then User verifies that Backpacks under Accessories is present
-    Then User verifies that "Hats picture" is present
+    Then User verifies that "Hats picture" is displayed
     Then User verifies that "Hats" is present
     Then User verifies that Beanies under Hat is present
-    Then User verifies that "Home & Living picture" is present
+    Then User verifies that "Home & Living picture" is displayed
     Then User verifies that "Home & Living" is present
     Then User verifies that Blankets under Home & Living is present
-    Then User verifies that "Kids & Youth Clothing picture" is present
+    Then User verifies that "Kids & Youth Clothing picture" is displayed
     Then User verifies that "Kids & Youth Clothing" is present
     Then User verifies that Baby Bibs under Kids & Youth Clothing is present
-    Then User verifies that "Men's Clothing picture" is present
+    Then User verifies that "Men's Clothing picture" is displayed
     Then User verifies that "Men's Clothing" is present
     Then User verifies that Bottoms under Men's Clothing is present
-    Then User verifies that "Women's Clothing picture" is present
+    Then User verifies that "Women's Clothing picture" is displayed
     Then User verifies that "Women's Clothing" is present
     Then User verifies that Crop Tops under Women's Clothing is present
 
