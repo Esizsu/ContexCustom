@@ -6,7 +6,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class PrintBrandLogoSteps extends Base {
-    // ProductsPage productsPage = new ProductsPage();
+
+    ProductsPage productsPage = new ProductsPage();
     Logger logger = LoggerFactory.getLogger(ProductsSteps.class);
 
 
