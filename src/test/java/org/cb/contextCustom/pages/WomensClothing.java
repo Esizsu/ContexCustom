@@ -8,6 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 public class WomensClothing {
 
     public WomensClothing() {
+
         PageFactory.initElements(MyDriver.get(), this);
     }
 
@@ -21,5 +22,5 @@ public class WomensClothing {
     public WebElement allWomen;
 
     @FindBy(xpath = "//li[@class='breadcrumb-item text-nowrap active']")
-    public WebElement pageMapText;
+    public WebElement womensClothingText;
 }
