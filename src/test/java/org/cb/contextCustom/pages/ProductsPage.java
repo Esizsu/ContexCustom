@@ -78,14 +78,6 @@ public class ProductsPage {
 //    public WebElement verifyBackpacks;
 
 
-    // (//img[@alt='Context Custom'])[3]  contex logo
-    // //img[@alt='Gildan']  Gildan logo
-
-    //   //img[@alt='Brand']   Brand logo
-
-    //  (//img[@alt='Shop Converse'])[3]  Print image
-
-
 
 
 
