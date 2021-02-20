@@ -57,6 +57,7 @@ public class ProductsPage {
     public WebElement mensClothing;
 
     //(//h2[@class='h5'][contains(text(),'Men's Clothing')])[5]
+    //(//h2[@class='h5']//a[contains(text(),'Women's Clothing')])[3]
 
     @FindBy (xpath = "(//a[@class='nav-link-style'][contains(text(),'Bottoms')])[1]")
     public WebElement bottomsM;
@@ -72,8 +73,17 @@ public class ProductsPage {
 
     @FindBy (xpath = "(//a[@class='nav-link-style'][contains(text(),'Bottoms')])[2]")
     public WebElement bottomsW;
+//
+//    @FindBy (xpath = "//li[@class='breadcrumb-item text-nowrap active']")
+//    public WebElement verifyBackpacks;
 
 
+    // (//img[@alt='Context Custom'])[3]  contex logo
+    // //img[@alt='Gildan']  Gildan logo
+
+    //   //img[@alt='Brand']   Brand logo
+
+    //  (//img[@alt='Shop Converse'])[3]  Print image
 
 
 
