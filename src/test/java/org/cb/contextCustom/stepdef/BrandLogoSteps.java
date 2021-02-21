@@ -1,13 +1,13 @@
+package org.cb.contextCustom.stepdef;
+
 import io.cucumber.java.en.Then;
-import org.cb.contextCustom.pages.ProductsPage;
-import org.cb.contextCustom.stepdef.Base;
-import org.cb.contextCustom.stepdef.ProductsSteps;
+import org.cb.contextCustom.pages.Products;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class PrintBrandLogoSteps extends Base {
+public class BrandLogoSteps extends Base {
 
-    ProductsPage productsPage = new ProductsPage();
+    Products products = new Products();
     Logger logger = LoggerFactory.getLogger(ProductsSteps.class);
 
 

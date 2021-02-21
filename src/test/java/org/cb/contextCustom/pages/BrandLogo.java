@@ -5,9 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class PrintBrandLogo {
+public class BrandLogo {
 
-    public PrintBrandLogo() {
+    public BrandLogo() {
         PageFactory.initElements(MyDriver.get(), this);
     }
 
