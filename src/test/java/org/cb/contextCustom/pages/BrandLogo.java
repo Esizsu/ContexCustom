@@ -18,7 +18,7 @@ public class BrandLogo {
     public  WebElement bring;
 
     @FindBy(linkText = "Print Now")
-    public  WebElement printNow;
+    public  WebElement printNowButton;
 
     @FindBy(xpath = "(//img[@alt='Shop Converse'])[3]  ")
     public WebElement printImage;

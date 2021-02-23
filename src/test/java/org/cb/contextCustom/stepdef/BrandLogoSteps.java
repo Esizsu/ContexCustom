@@ -28,14 +28,20 @@ public class BrandLogoSteps extends Base {
 
     @Then("User verifies that Print Now button is present")
     public void userVerifiesThatPrintNowButtonIsPresent() {
+        brandLogo.printNowButton.isEnabled();
+        logger.info("Print Now is Enable");
+
     }
 
     @Then("User verifies that Print image is present")
     public void userVerifiesThatPrintImageIsPresent() {
+        brandLogo.printImage.isDisplayed();
+        logger.info("Print Image is displayed");
     }
 
     @Then("User verifies that {string} logo is present")
-    public void userVerifiesThatLogoIsPresent(String arg0) {
+    public void userVerifiesThatLogoIsPresent(String value) {
+
 
     }
 
