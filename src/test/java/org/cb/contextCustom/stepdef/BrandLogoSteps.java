@@ -1,18 +1,22 @@
 package org.cb.contextCustom.stepdef;
 
 import io.cucumber.java.en.Then;
+import org.cb.contextCustom.pages.BrandLogo;
 import org.cb.contextCustom.pages.Products;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class BrandLogoSteps extends Base {
 
-    Products products = new Products();
+    BrandLogo brandLogo = new BrandLogo();
     Logger logger = LoggerFactory.getLogger(ProductsSteps.class);
 
 
     @Then("User verifies that {string} is present")
-    public void userVerifiesThatIsPresent(String arg0) {
+    public void userVerifiesThatIsPresent(String value) {
+        if (value.equals(brandLogo.suppy.getText()))
+        textIsDisplayedAndEnabled("Supply from you print from us", brandLogo.suppy);
+
     }
 
     @Then("User verifies that Print Now button is present")

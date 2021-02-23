@@ -11,14 +11,30 @@ public class BrandLogo {
         PageFactory.initElements(MyDriver.get(), this);
     }
 
-    @FindBy(xpath = "(//img[@alt='Context Custom'])[3]")
-    public WebElement contexcustomlogo;
+    @FindBy(xpath = "//h4[contains (text(),'Supply from you print from us')]")
+    public WebElement suppy;
 
-    @FindBy(xpath = "//img[@alt='Gildan'] ")
-    public WebElement giildan;
+    @FindBy(xpath = "//h3[contains (text(),'Bring Your Own Tee')]")
+    public  WebElement bring;
 
-
+    @FindBy(linkText = "Print Now")
+    public  WebElement printNow;
 
     @FindBy(xpath = "(//img[@alt='Shop Converse'])[3]  ")
-    public WebElement printimage;
+    public WebElement printImage;
+
+    @FindBy (xpath = "//h2[contains(text(),'Brands')]")
+    public WebElement brands;
+
+    @FindBy(xpath = "(//img[@alt='Context Custom'])[3]")
+    public WebElement contexCustomLogo;
+
+    @FindBy(xpath = "//img[@alt='Gildan'] ")
+    public WebElement gildan;
+
+    @FindBy(xpath = "//img[@alt='Brand']")
+    public WebElement bellaCanvas;
+
+
+
 }
