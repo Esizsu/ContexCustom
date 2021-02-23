@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 public class BrandLogoSteps extends Base {
 
     BrandLogo brandLogo = new BrandLogo();
-    Logger logger = LoggerFactory.getLogger(ProductsSteps.class);
+    Logger logger = LoggerFactory.getLogger(BrandLogoSteps.class);
 
 
     @Then("User verifies that {string} is present")
