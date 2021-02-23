@@ -20,7 +20,7 @@ public class BrandLogo {
     @FindBy(linkText = "Print Now")
     public  WebElement printNowButton;
 
-    @FindBy(xpath = "(//img[@alt='Shop Converse'])[3]  ")
+    @FindBy(xpath = "(//img[@alt='Shop Converse'])[3]")
     public WebElement printImage;
 
     @FindBy (xpath = "//h2[contains(text(),'Brands')]")
@@ -29,12 +29,13 @@ public class BrandLogo {
     @FindBy(xpath = "(//img[@alt='Context Custom'])[3]")
     public WebElement contexCustomLogo;
 
-    @FindBy(xpath = "//img[@alt='Gildan'] ")
+    @FindBy(xpath = "//img[@alt='Gildan']")
     public WebElement gildan;
 
     @FindBy(xpath = "//img[@alt='Brand']")
     public WebElement bellaCanvas;
 
+    //(//img[@class='d-block mx-auto'])[1]
 
 
 }

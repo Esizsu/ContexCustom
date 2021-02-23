@@ -1,9 +1,7 @@
 Feature: Verifying the MainPage
 
   @Products
-  Scenario: Products verification
-#    Given User is on landing page
-##  Verifying Products
+  Scenario: Navigating and Verifying Products
 
     When User navigate and verifies that More products button is present
     Then User verifies that "accessories" is displayed
@@ -27,21 +25,7 @@ Feature: Verifying the MainPage
     Then User verifies that "Bottoms" menu is present
     Then User verifies that "Women's Clothing" heading is present
 
-#  Navigating and Verifying Products
-#
-#  @Brands
-#  Scenario:Print and Brand logos verification
-#    Given User is on landing page
-#    Then User verifies that "Supply from you print from us" is present
-#    Then User verifies that "Bring Your Own Tee" is present
-#    Then User verifies that Print Now button is present
-#    Then User verifies that Print image is present
-#    Then User verifies that "Brands" is present
-#    Then User verifies that "Context Custom" logo is present
-#    Then User verifies that "GILDAN" logo is present
-#    Then User verifies that "BELLA+CANVAS logo is present
-#
-#
+
 
 
 
