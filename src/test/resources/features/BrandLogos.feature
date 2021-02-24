@@ -2,7 +2,6 @@ Feature: Verifying the MainPage
 
   @Brands
   Scenario:Navigating and Verifying Brand logos
-
     Then User verifies that "Supply from you print from us" is present
     Then User verifies that "Bring Your Own Tee" is present
     Then User verifies that Print Now button is present
