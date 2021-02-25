@@ -7,6 +7,8 @@ Feature: Verifying the MainPage
     Then User verifies that Print Now button is present
     Then User verifies that Print image is present
     Then User verifies that "Brands" is present
+
+
     Then User verifies that "Context Custom" logo is present
     Then User verifies that "Gildan" logo is present
     Then User verifies that "Brand" logo is present
