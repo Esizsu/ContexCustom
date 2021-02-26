@@ -1,8 +1,8 @@
 Feature: Verifying the MainPage
 
 ## operation to log in everytime for each scenario
-  Background:
-    Given user is in landing page and signs in
+#  Background:
+#    Given user is in landing page and signs in
 
   @Products
   Scenario Outline: Navigating and Verifying Products
