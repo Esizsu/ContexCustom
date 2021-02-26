@@ -96,8 +96,7 @@ public class ProductsStepsNew extends Base {
     @Then("user clicks on Bottoms product and verifies")
     public void userClicksOnBottomsProductAndVerifies() {
         waitSomeTime(150L);
-        //click(productsNew.bottomsW);
-        productsNew.bottomsW.click();
+        click(productsNew.bottomsW);
         textIsDisplayedAndEnabled("Bottoms", productsNew.verifyBottomsPageW);
     }
 }
