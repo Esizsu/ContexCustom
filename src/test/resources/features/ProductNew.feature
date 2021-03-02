@@ -5,7 +5,7 @@ Feature: Verifying the MainPage
 
   @Products
   Scenario Outline: Navigating and Verifying Products
-  //  Given user is in landing page and signs in
+#    Given user is in landing page and signs in
 
     When user verifies that images "<categories images>" are displayed
 #    Then User verifies that "accessories" is displayed
