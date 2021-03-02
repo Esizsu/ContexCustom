@@ -4,6 +4,7 @@ Feature: Verifying the MainPage
   Scenario Outline:Navigating and Verifying Brand logos
     When User verifies that Brands is present
     And user verifies that "<brand Logos>" are displayed
+#    Control+Alt+ L
     Examples:
       | brand Logos    |
       | Context Custom |

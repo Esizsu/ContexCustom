@@ -50,11 +50,8 @@ public class ProductsNew {
     @FindBy (xpath = "//img[@alt='mens-clothing']")
     public WebElement mensClothingImage;
 
-    @FindBy (xpath = "//div[5]//div[1]//div[1]//h2[1]//a[1]")
+    @FindBy (xpath = "(//h2[@class='h5'])[5]")
     public WebElement mensClothing;
-
-    //(//h2[@class='h5'][contains(text(),'Men's Clothing')])[5]
-    //(//h2[@class='h5']//a[contains(text(),'Women's Clothing')])[3]
 
     @FindBy (xpath = "(//a[@class='nav-link-style'][contains(text(),'Bottoms')])[1]")
     public WebElement bottomsM;
@@ -62,11 +59,11 @@ public class ProductsNew {
     @FindBy (xpath = "//img[@alt='womens-clothing']")
     public WebElement womensClothingImage;
 
-    @FindBy (xpath = "//div[6]//div[1]//div[1]//h2[1]//a[1]")
+    @FindBy (xpath = "(//h2[@class='h5'])[6]")
     public WebElement womensClothing;
 
-    @FindBy (xpath= "//li[@class='breadcrumb-item text-nowrap active']")
-    public WebElement verifyWomensClothingText;
+//    @FindBy (xpath= "//li[@class='breadcrumb-item text-nowrap active']")
+//    public WebElement verifyWomensClothingText;
 
     @FindBy (xpath = "(//a[@class='nav-link-style'][contains(text(),'Bottoms')])[2]")
     public WebElement bottomsW;
