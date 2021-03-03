@@ -1,28 +1,41 @@
 package org.cb.contextCustom.stepdef;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import org.cb.contextCustom.pages.HatsPage;
 
 public class HatsStepDef extends Base {
 
     HatsPage hatsPage=new HatsPage();
 
-    @Then("move to Hats")
-    public void move_to_Hats() {
+    @When("user lands on All Hats page and verifies")
+    public void userLandsOnAllHatsPageAndVerifies() {
+        waitSomeTime(2000L);
+        moveToElement(hatsPage.allProducts);
         moveToElement(hatsPage.hats);
-    }
+        moveAndClickToElement(hatsPage.allHats);
 
-
-    @Then("click on All Hats")
-    public void click_on_All_Hats() {
-       moveAndClickToElement(hatsPage.allHats);
-    }
-
-
-    @Then("verify Hats page is displayed")
-    public void verify_Hats_page_is_displayed() {
         String expected = "Hats";
         String actual = hatsPage.textOfHats.getText();
         verifyTheText(actual, expected);
+
+    }
+
+    @And("user verifies that first Hats product features are present")
+    public void userVerifiesThatFirstHatsProductFeaturesArePresent() {
+
+        hatsPage.cuffedBeanieImage.isDisplayed();
+        hatsPage.cuffedBeanieBrand.isDisplayed();
+        String expected1="Cuffed Beanie | Context B110";
+        String actual1=hatsPage.cuffedBeanieText.getText();
+        verifyTheText(actual1,expected1);
+        hatsPage.cuffedBeaniePrice.isDisplayed();
+    }
+
+    @Then("user clicks on first Hats product and verifies")
+    public void userClicksOnFirstHatsProductAndVerifies() {
+        click(hatsPage.cuffedBeanieImage);//nothing behind
+        // hatsPage.cuffedBeanieTextOnPage.isDisplayed();
     }
 }

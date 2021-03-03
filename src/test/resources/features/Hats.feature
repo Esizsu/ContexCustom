@@ -1,8 +1,8 @@
 Feature:Hats Page Functionality
 
-  @Kids
+  @Hats
   Scenario:Verifying Hats Page
-    When move on to Categories dropdown menu
-    Then move to Hats
-    And click on All Hats
-    Then verify Hats page is displayed
+    Given User is in landing page and sign in
+    When user lands on All Hats page and verifies
+    And user verifies that first Hats product features are present
+    Then user clicks on first Hats product and verifies
