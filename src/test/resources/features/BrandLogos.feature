@@ -12,14 +12,3 @@ Feature: Verifying the MainPage
     Then User verifies that "Gildan" logo is present
     Then User verifies that "Brand" logo is present
 
-
-#    When user verifies that "<print feature>" are displayed
-##    Then User verifies that "Supply from you print from us" is present
-##    Then User verifies that "Bring Your Own Tee" is present
-##    Then User verifies that Print Now button is present
-##    Then User verifies that Print image is present
-
-#    When user verifies that "<brand Logos>" are displayed
-#    Then User verifies that "Context Custom" logo is present
-#    Then User verifies that "Gildan" logo is present
-#    Then User verifies that "Brand" logo is present
