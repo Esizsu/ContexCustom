@@ -16,7 +16,7 @@ public class LogInStepdefs extends Base {
     Logger logger = LoggerFactory.getLogger(LogInStepdefs.class);
     @Given("User is in the contextcustom.com homepage")
     public void userIsInTheContextcustomComHomepage() {
-       // MyDriver.get().get(ConfigurationReader.getProperty("baseUrl"));
+        MyDriver.get().get(ConfigurationReader.getProperty("baseUrl"));
         String expected = "Context Custom";
         String actual = MyDriver.get().getTitle();
         Assert.assertEquals(expected, actual);
